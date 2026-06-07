@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7Fold Studios — Copy Deck</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0a09;--bg-2:#141210;--fg:#f4f1ea;--fg-soft:#9b958a;--line:#2a2620;
+    --accent:oklch(0.66 0.2 42);--disp:'Space Grotesk',sans-serif;--mono:'Space Mono',monospace;
+    --gutter:clamp(20px,5vw,72px);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg);color:var(--fg);font-family:var(--disp);line-height:1.6;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 var(--gutter);}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg-soft);}
+  .accent{color:var(--accent);}
+
+  header{border-bottom:1px solid var(--line);padding:22px 0;position:sticky;top:0;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);z-index:10;}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;}
+  .brand{display:flex;align-items:center;gap:12px;}
+  .brand img{height:32px;}
+  .brand b{font-weight:700;letter-spacing:.03em;font-size:16px;white-space:nowrap;}
+  .back{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-soft);text-decoration:none;}
+  .back:hover{color:var(--accent);}
+
+  .top{padding:clamp(48px,7vw,96px) 0 clamp(20px,3vw,40px);}
+  .top h1{font-family:var(--disp);font-weight:600;font-size:clamp(34px,5vw,64px);line-height:1;letter-spacing:-.03em;margin:22px 0 18px;}
+  .top p{color:var(--fg-soft);max-width:64ch;font-size:17px;}
+  .legend{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--fg-soft);margin-top:20px;display:flex;gap:18px;flex-wrap:wrap;}
+  .legend .pick{color:var(--accent);}
+
+  .block{border-top:1px solid var(--line);padding:clamp(34px,5vw,60px) 0;}
+  .block-h{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:8px;}
+  .block h2{font-family:var(--disp);font-weight:600;font-size:clamp(24px,3.2vw,38px);letter-spacing:-.02em;margin-bottom:30px;}
+
+  .row{display:grid;grid-template-columns:200px 1fr;gap:clamp(18px,3vw,44px);padding:22px 0;border-top:1px solid var(--line);}
+  .row:first-of-type{border-top:none;}
+  .row .what{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-soft);padding-top:4px;}
+  .row .what small{display:block;text-transform:none;letter-spacing:0;margin-top:6px;color:#6a645a;}
+  .opts{display:flex;flex-direction:column;gap:12px;}
+  .opt{display:flex;gap:14px;align-items:baseline;}
+  .opt .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-soft);border:1px solid var(--line);padding:3px 8px;flex-shrink:0;min-width:60px;text-align:center;}
+  .opt.use .tag{color:var(--accent);border-color:var(--accent);}
+  .opt .txt{font-size:18px;line-height:1.4;}
+  .opt.use .txt{color:var(--fg);}
+  .opt .txt.big{font-size:clamp(20px,2.4vw,28px);font-weight:600;letter-spacing:-.01em;}
+  .opt:not(.use) .txt{color:#b8b1a3;}
+  .note{font-size:14.5px;color:var(--fg-soft);line-height:1.55;}
+
+  .foot{border-top:1px solid var(--line);padding:30px 0;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#6a645a;}
+  @media(max-width:720px){.row{grid-template-columns:1fr;gap:12px;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand"><img src="assets/logo-white.png" alt="7Fold Studios"><b>7FOLD STUDIOS</b></div>
+    <a class="back" href="/">← Back to concepts</a>
+  </div>
+</header>
+
+<section class="top">
+  <div class="wrap">
+    <span class="eyebrow">Copy Deck · Round 1</span>
+    <h1>Words for every section.</h1>
+    <p>Each section below shows the headline currently live in the concepts, plus 2–3 alternates to react to. Mix and match freely — copy is the easiest thing to swap. Tone target: confident, warm, upscale; short sentences; never gimmicky.</p>
+    <div class="legend"><span class="pick">● IN USE — what's live in the mockups</span><span>○ ALT — options to consider</span></div>
+  </div>
+</section>
+
+<!-- BRAND -->
+<section class="block"><div class="wrap">
+  <div class="block-h">01 — Brand</div>
+  <h2>The line everything hangs on</h2>
+  <div class="row">
+    <div class="what">Positioning line</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt big">We make it look and sound incredible.</span></div>
+      <div class="opt"><span class="tag">Alt 1</span><span class="txt">Production that's worth remembering.</span></div>
+      <div class="opt"><span class="tag">Alt 2</span><span class="txt">The crew behind the moment.</span></div>
+      <div class="opt"><span class="tag">Alt 3</span><span class="txt">Luxury production — live, studio &amp; install.</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Inherited tagline<small>From the old site — worth keeping as a signature</small></div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">Keep</span><span class="txt">"The best quality on earth."</span></div>
+      <div class="opt"><span class="tag">Note</span><span class="note">Used as the closing quote in all three concepts. It's a nice, slightly playful anchor that ties to the globe logo.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- HERO -->
+<section class="block"><div class="wrap">
+  <div class="block-h">02 — Homepage hero</div>
+  <h2>The first six words</h2>
+  <div class="row">
+    <div class="what">Hero headline</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">A · in use</span><span class="txt big">Made to be remembered.</span></div>
+      <div class="opt use"><span class="tag">B · in use</span><span class="txt big">Look incredible. Sound incredible.</span></div>
+      <div class="opt use"><span class="tag">C · in use</span><span class="txt big">Look &amp; sound incredible.</span></div>
+      <div class="opt"><span class="tag">Alt 1</span><span class="txt">Every moment, in full fidelity.</span></div>
+      <div class="opt"><span class="tag">Alt 2</span><span class="txt">Picture-perfect. Pitch-perfect.</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Hero subhead</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">From the wedding you'll replay forever, to the music video that breaks you out, to the room your congregation gathers in — 7Fold makes it look and sound incredible.</span></div>
+      <div class="opt"><span class="tag">Alt 1</span><span class="txt">One production house for the three rooms that matter most: your wedding, your studio session, and your sanctuary.</span></div>
+      <div class="opt"><span class="tag">Alt 2</span><span class="txt">Audio, video and lighting, engineered end-to-end — so all your audience feels is the moment.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- SERVICES -->
+<section class="block"><div class="wrap">
+  <div class="block-h">03 — The three areas</div>
+  <h2>Naming &amp; one-liners</h2>
+  <div class="row">
+    <div class="what">Weddings &amp; Live Events<small>Short title used in B/C: "The Day"</small></div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">Concert-grade PA, live-band support and on-site engineers — ceremony crystal-clear, reception built to move.</span></div>
+      <div class="opt"><span class="tag">Alt</span><span class="txt">Every vow heard, every downbeat felt — sound engineered for the day you can't redo.</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Music &amp; Video Studio<small>Short title: "The Record"</small></div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">4K/6K cinema capture, multicam switching, treated tracking rooms and full post — color, mix &amp; master.</span></div>
+      <div class="opt"><span class="tag">Alt</span><span class="txt">Where the record gets made — and the video that makes people press play.</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Church AVL<small>Short title: "The Room" · lead plain, "AVL" as the label</small></div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">Sanctuary system design, integration and team training — sound, screens and lighting that serve worship.</span></div>
+      <div class="opt"><span class="tag">Alt</span><span class="txt">Audio, video &amp; lighting for your sanctuary — designed, installed, and your team trained to run it.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- STATEMENT -->
+<section class="block"><div class="wrap">
+  <div class="block-h">04 — Standard / philosophy</div>
+  <h2>Why 7Fold</h2>
+  <div class="row">
+    <div class="what">Statement line</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt big">We obsess over the things your guests never notice — so all they feel is incredible.</span></div>
+      <div class="opt"><span class="tag">Alt 1</span><span class="txt big">We sweat the frame and the fader so the moment just lands.</span></div>
+      <div class="opt"><span class="tag">Alt 2</span><span class="txt big">Measured, calibrated, color-graded — invisible work, unforgettable result.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- CTA -->
+<section class="block"><div class="wrap">
+  <div class="block-h">05 — Call to action</div>
+  <h2>Closing the inquiry</h2>
+  <div class="row">
+    <div class="what">CTA headline</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt big">Tell us what you're planning. / Book the crew. / Start a project.</span></div>
+      <div class="opt"><span class="tag">Alt 1</span><span class="txt">Let's hold your date.</span></div>
+      <div class="opt"><span class="tag">Alt 2</span><span class="txt">Start the conversation.</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Reassurance line</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">No payment up front — just pick a service, name your date, and we'll be in touch within one business day.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- WEDDINGS BREAKOUT -->
+<section class="block"><div class="wrap">
+  <div class="block-h">06 — Weddings breakout</div>
+  <h2>Sample service page</h2>
+  <div class="row">
+    <div class="what">Breakout hero</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt big">Every vow. Every downbeat.</span></div>
+      <div class="opt"><span class="tag">Alt 1</span><span class="txt">Sound your guests feel.</span></div>
+      <div class="opt"><span class="tag">Alt 2</span><span class="txt">The day, in full fidelity.</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Package framing</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">Three tiers, every one fully engineered. Custom quotes available for unique venues.</span></div>
+      <div class="opt"><span class="tag">Note</span><span class="note">Tiers &amp; prices pulled straight from the flyer: Basic $800 · Premier $1,300 (most popular) · Signature $2,750. "Seamless delivery, setup &amp; teardown included · Deposit required to secure your date."</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- MICROCOPY -->
+<section class="block"><div class="wrap">
+  <div class="block-h">07 — Microcopy</div>
+  <h2>The small stuff</h2>
+  <div class="row">
+    <div class="what">Buttons</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">Start an inquiry · Inquire · View packages · Open the inquiry form · Send inquiry</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Form intro</div>
+    <div class="opts">
+      <div class="opt use"><span class="tag">In use</span><span class="txt">Tell us about your event. No payment now — we'll confirm availability and walk you through the details.</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="what">Open question<small>For the client</small></div>
+    <div class="opts">
+      <div class="opt"><span class="tag">Ask</span><span class="note">Do we keep package pricing public (as shown), or move it behind the inquiry for a more bespoke, luxury feel? Easy to toggle either way.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<div class="foot"><div class="wrap">© 2026 7Fold Studios LLC — copy deck · all copy is placeholder pending client review</div></div>
+
+</body>
+</html>
