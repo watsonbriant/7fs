@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "7Fold Studios",
   description: "7Fold Studios — Website Concepts",
+  icons: {
+    icon: "/logo-white-block.ico",
+  },
 };
 
 export default function RootLayout({
